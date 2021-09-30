@@ -61,7 +61,6 @@ img{
     background-clip:padding-box;
     background-position:bottom center;
     background-repeat: no-repeat;
-    transition:300ms ease-in;
 }
 
 .Industrialarrow {
@@ -71,7 +70,7 @@ img{
     cursor: pointer;
 
 }
-.HeroPage{
+.CaseStudies{
     margin: 4% 0 0 8.5%;
 }
 main {
@@ -158,48 +157,81 @@ aside {
    grid-column: 1/4;
 }
 
-.footer {
-   /* border: 1px solid black; */
-    width: 100%;
-   max-height:6rem;
-    padding: 0px 0 0px 0;
-    display:flex;
-    flex-direction: column;
-}
-.socialmedia {
-    width: 100%;
-    position:relative;
-    align-self: flex-end;
-    
-}
-hr {border:none;
-    border-bottom: 1px solid #6D96A6;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
-    }
 
-.sociallinks {
-    float:right;
-    width:2%;
-    position:inline;
-    padding: 10px 14px 7px 0; 
+
+/*MyWorkPage*/
+
+.CaseStudy
+{
+    Padding:30px 0px 0 0px;
+    margin: 0;
+    width:80rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 16px;
+}
+
+.Project {
+    margin: 0 0 0 0;
+    width:100%;
     cursor: pointer;
-    align-items: baseline;
+    display:block;
+    img-opacity: 100%;
+    background-color: transparent;
 }
 
-.smalltext {
-    font-family: 'SFProText', sans-serif;
-    Font-size: 10px;
-    font-weight:normal;
-    letter-spacing: 0.26px;
-    margin: 1% 0 0 8.5%;
-}
-#update{
-    font-family: 'SFProText', sans-serif;
-    Font-size: 10px;
-    font-weight:normal;
-    letter-spacing: 0.26px;
-    line-height:30px; 
-    margin: 0 0 0 11%;
+.Project:hover {
+    margin: 0 0 0 0;
+    width:100%;
+    cursor: pointer;
+    display:block;
+    opacity: 0%;
+    background-color: #394A59;
 }
 
 
+
+.footer {
+    /* border: 1px solid black; */
+     width: 100%;
+    max-height:6rem;
+     padding: 0px 0 0px 0;
+     display:flex;
+     flex-direction: column;
+ }
+ .socialmedia {
+     width: 100%;
+     position:relative;
+     align-self: flex-end;
+     
+ }
+ hr {border:none;
+     border-bottom: 1px solid #6D96A6;
+     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+     }
+ 
+ .sociallinks {
+     float:right;
+     width:2%;
+     position:inline;
+     padding: 10px 14px 7px 0; 
+     cursor: pointer;
+     align-items: baseline;
+ }
+ 
+ .smalltext {
+     font-family: 'SFProText', sans-serif;
+     Font-size: 10px;
+     font-weight:normal;
+     letter-spacing: 0.26px;
+     margin: 1% 0 0 8.5%;
+ }
+ #update{
+     font-family: 'SFProText', sans-serif;
+     Font-size: 10px;
+     font-weight:normal;
+     letter-spacing: 0.26px;
+     line-height:30px; 
+     margin: 0 0 0 11%;
+ }
